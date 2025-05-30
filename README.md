@@ -2,9 +2,9 @@
 
 このリポジトリは技術書典 18 にて初回頒布している以下についてのリポジトリです。
 
-- 今から始める！React アプリ開発
+- [今から始める！React アプリ開発](https://techbookfest.org/product/nEPXGu3Cmp1rus7JVcfTU4)
   - gisho18-01
-- 次のステップへ！React アプリ開発
+- [次のステップへ！React アプリ開発](https://techbookfest.org/product/qza90k6k5rPKSTgSVkVMFj)
   - gisho18-02
 
 ## 内容
