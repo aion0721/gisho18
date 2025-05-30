@@ -37,7 +37,9 @@ React が定義されていない：ルール名「no-undef」
 
 エラーを見たい場合は、以下で修正してみてください。
 
-```diff:src/components.TodoList.tsx
+- src/components.TodoList.tsx
+
+```diff
 -      {todos.map((todo) => (
 +      {todos.map((todo, index) => (
         <li style={liStyle} key={todo.id}>
