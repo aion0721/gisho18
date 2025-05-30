@@ -1,0 +1,12 @@
+image: node:lts
+
+pages:
+  script:
+    - yarn
+    - yarn build
+    - mv dist/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - GitLab
