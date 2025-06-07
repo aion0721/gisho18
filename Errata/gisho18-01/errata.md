@@ -1,5 +1,17 @@
 # 「今から始める！React アプリ開発」第 1 版 正誤表
 
+## 1.6 シンプルなページ
+
+### リンクの作成
+
+aboutme.html の画像の横幅指定（`width`）のスペルミス
+
+```diff
+    <h2>Image</h2>
+-    <img src="aboutme.png" alt="Aboutme" widht="250px" height="250px" />
++    <img src="aboutme.png" alt="Aboutme" width="250px" height="250px" />
+```
+
 ## 1.9:Node.js で API サーバを立ててみる。
 
 ### CORS 対応
@@ -18,6 +30,15 @@ const app = new Hono();
 +app.use("*", cors());
 
 app.get("/users/:id", (c) => {
+```
+
+### フロントエンド側のコード
+
+API サーバは HTTPS 対応をしていないので、HTTP での通信となります。
+
+```diff
+- const apiUrl = "https://localhost:3000/users/1";
++ const apiUrl = "http://localhost:3000/users/1";
 ```
 
 ## 2.9 Todo アプリ
