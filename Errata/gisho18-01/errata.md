@@ -43,6 +43,15 @@ API サーバは HTTPS 対応をしていないので、HTTP での通信とな�
 
 ## 2.9 Todo アプリ
 
+### ページ遷移(誤)
+
+a タグの属性に誤りがありました。
+
+```diff
+-<a href="/">Home</a>|< to="/about">About</>
++<a href="/">Home</a>|<a href="/about">About</a>
+```
+
 ### APIEndpoint
 
 完全に誤植です。申し訳ありません。
